@@ -27,7 +27,8 @@ include('functions.php');
     echo
     "<h2> PHP Array Practice</h2>",
     "<h3>2. Define an Array of numbers </h3>",
-    "<p>" . printArr($numbers) . "</p>";
+    "<p>" . printArr($numbers) . "</p>",
+    "<p>" . largest($numbers) . "</p>";
 
 
     ?>

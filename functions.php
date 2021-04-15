@@ -5,3 +5,7 @@ function printArr($numbers)
         echo "$number <br>";
     }
 }
+
+function largest($numbers) {
+     echo "The largest number in the array is " . (max($numbers). ".");
+}
