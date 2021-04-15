@@ -19,5 +19,19 @@ error_reporting(E_ALL);
 </head>
 <body>
   <h1>Pair Program 2</h1>
+    <?php
+    $numbers = array("7", "9", "8", "9", "8", "8", "6");
+    function printArr($numbers)
+    {
+        foreach ($numbers as $number){
+            echo "$number <br>";
+        }
+    }
+    echo
+    "<h2> PHP Array Practice</h2>",
+    "<h3>2. Define an Array of numbers </h3>",
+    "<p>" . printArr($numbers) . "</p>";
+
+    ?>
 </body>
 </html>
