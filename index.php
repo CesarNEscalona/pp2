@@ -32,7 +32,7 @@ include('functions.php');
         // call my functions
         "<p>" . printArr($numbers) . "</p>",
         "<h3>3. Move the print function to an include page: Complete &#x2713; </h3>",
-        "<h3>4. Define an Array of numbers </h3>",
+        "<h3>4. Return the largest value in the array </h3>",
         "<p>" . largest($numbers) . "</p>",
         "<h3>5. Remove any duplicates from the array </h3>",
         "<p>" . removeDups($numbers) . "</p>",
