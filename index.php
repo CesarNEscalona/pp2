@@ -19,19 +19,21 @@ error_reporting(E_ALL);
 </head>
 <body>
 <?php
+// Include the functions page
 include('functions.php');
 ?>
   <h1>Pair Program 2</h1>
     <?php
+    // original array of numbers
     $numbers = array("7", "9", "8", "9", "8", "8", "6");
     echo
-    "<h2> PHP Array Practice</h2>",
-    "<h3>2. Define an Array of numbers </h3>",
-    "<p>" . printArr($numbers) . "</p>",
-    "<p>" . largest($numbers) . "</p>",
-    "<p>" . removeDups($numbers) . "</p>";
-
-
+        "<h2> PHP Array Practice</h2>",
+        "<h3>2. Define an Array of numbers </h3>",
+        // call my functions
+        "<p>" . printArr($numbers) . "</p>",
+        "<p>" . largest($numbers) . "</p>",
+        "<p>" . removeDups($numbers) . "</p>",
+        "<p>" . distribution($numbers) . "</p>";
     ?>
 </body>
 </html>
